@@ -1,0 +1,24 @@
+@-webkit-keyframes ei-yu-kai {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: green;
+        -webkit-transform: rotate(180deg);
+    }
+
+    100% {
+        color: blue;
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+h1 {
+    margin: 2em auto;
+    text-align: center;
+    -webkit-animation-name: ei-yu-kai;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
