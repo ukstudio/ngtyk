@@ -13,6 +13,22 @@
 	100% { color: #f00; }
 }
 
+body {
+  font-family: Helvetica, "Lucida Grande","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ", "ＭＳ Ｐゴシック","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  background-color: #aaa;
+  margin: 0;
+  padding: 0;
+}
+
+div#container {
+  background-color: #fff;
+  width: 90%;
+  margin: 0px auto;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
 header {
 	display: -webkit-box;
 	-webkit-box-align: center;
@@ -51,31 +67,32 @@ header .portrait .eyemask {
 	background-color: black;
 }
 
-h2 {
-	margin: 0;
-	padding: 0;
+section {
+  display: block;
+  width: 80%;
+  margin: 0px auto;
 }
 
-section {
-	box-shadow: 6px 6px 4px #999;
-	-moz-box-shadow: 6px 6px 4px #999;
-	-webkit-box-shadow: 6px 6px 4px #999;
+section h2 {
+  background-color: #33a2be;
+  color: #fff;
+	box-shadow: 3px 3px 2px #999;
+	-moz-box-shadow: 3px 3px 2px #999;
+	-webkit-box-shadow: 3px 3px 2px #999;
 
-	margin: 20px auto;
-	padding: 0px;
+	padding: 5px;
+  margin: 0px;
 
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
-
-	width: 80%;
-
 }
 
 ul li {
   -webkit-transition-propaty: all;
   -webkit-transition-duration: 1s;
   -webkit-transition-timing-function: ease-in-out;
+  list-style: none;
 }
 
 ul li:hover {
