@@ -42,3 +42,14 @@ div {
   width: 80%;
   
 }
+
+ul li {
+  -webkit-transition-propaty: all;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+ul li:hover {
+  background-color: #ccc;
+}
+
