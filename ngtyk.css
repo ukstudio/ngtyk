@@ -13,13 +13,31 @@
 	100% { color: #f00; }
 }
 
-h1 {
-	margin: 2em auto;
+header {
+	display: -webkit-box;
+	-webkit-box-align: center;
+	width: 50%;
+	margin: 1em auto;
+}
+
+header h1 {
 	text-align: center;
+	font-size: 4em;
+	-webkit-box-flex: 1;
 	-webkit-animation-name: kurukuru, nijiiro;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
+}
+
+header .portrait {
+	-webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(0, 0, 0, 0.8)));
+}
+
+header .portrait img {
+	border: solid 12px white;
+	height: 320px;
+	-webkit-box-shadow: 1px 1px 6px silver;
 }
 
 h2 {
@@ -27,7 +45,7 @@ h2 {
 	padding: 0;
 }
 
-div {
+section {
 	box-shadow: 6px 6px 4px #999;
 	-moz-box-shadow: 6px 6px 4px #999;
 	-webkit-box-shadow: 6px 6px 4px #999;
