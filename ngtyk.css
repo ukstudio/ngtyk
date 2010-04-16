@@ -86,14 +86,16 @@ section h2 {
 	-webkit-border-radius: 6px;
 }
 
-ul li {
+section#twitter ul li {
   -webkit-transition-propaty: all;
   -webkit-transition-duration: 1s;
   -webkit-transition-timing-function: ease-in-out;
   list-style: none;
+  line-height: 1.5em;
+  border-bottom: 1px dotted #ccc;
 }
 
-ul li:hover {
-  background-color: #ccc;
+section#twitter ul li:hover {
+  background-color: #33a2be;
 }
 
