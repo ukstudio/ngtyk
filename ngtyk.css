@@ -31,6 +31,7 @@ header h1 {
 }
 
 header .portrait {
+	position: relative;
 	-webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(0, 0, 0, 0.8)));
 }
 
@@ -38,6 +39,16 @@ header .portrait img {
 	border: solid 12px white;
 	height: 320px;
 	-webkit-box-shadow: 1px 1px 6px silver;
+}
+
+header .portrait .eyemask {
+	position: absolute;
+	top: 35px;
+	left: 115px;
+	z-index: 1;
+	width: 32px;
+	height: 10px;
+	background-color: black;
 }
 
 h2 {
