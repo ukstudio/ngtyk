@@ -1,23 +1,22 @@
-@-webkit-keyframes ei-yu-kai {
-    0% {
-        color: red;
-    }
+@-webkit-keyframes kurukuru {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
 
-    50% {
-        color: green;
-        -webkit-transform: rotate(180deg);
-    }
-
-    100% {
-        color: blue;
-        -webkit-transform: rotate(360deg);
-    }
+@-webkit-keyframes nijiiro {
+      0% { color: #f00; }
+     17% { color: #ff0; }
+     33% { color: #0f0; }
+     50% { color: #0ff; }
+     67% { color: #00f; }
+     83% { color: #f0f; }
+    100% { color: #f00; }
 }
 
 h1 {
     margin: 2em auto;
     text-align: center;
-    -webkit-animation-name: ei-yu-kai;
+    -webkit-animation-name: kurukuru, nijiiro;
     -webkit-animation-duration: 3s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
