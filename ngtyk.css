@@ -21,3 +21,24 @@ h1 {
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
 }
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+	box-shadow: 6px 6px 4px #999;
+	-moz-box-shadow: 6px 6px 4px #999;
+	-webkit-box-shadow: 6px 6px 4px #999;
+  
+  margin: 20px auto;
+  padding: 0px;
+  
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+
+  width: 80%;
+  
+}
