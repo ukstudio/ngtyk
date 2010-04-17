@@ -13,6 +13,18 @@
 	100% { color: #f00; }
 }
 
+@-webkit-keyframes fadein {
+  0% { activity: 0; background-color: #fff; }
+  100% { activity: 1; }
+}
+
+* {
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+}
+
 body {
   font-family: Helvetica, "Lucida Grande","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ", "ＭＳ Ｐゴシック","Lucida Sans Unicode",Arial,Verdana,sans-serif;
   background-color: #aaa;
